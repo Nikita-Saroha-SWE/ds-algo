@@ -33,7 +33,16 @@ public class Node {
 	public void setValue(Integer value) {
 		this.value = value;
 	}
-
+	
+	/*
+	 * 	8
+       / \
+	  3   10
+	 / \    \
+	1   6    14
+	   / \   /
+	  4   7 13
+	 */
 	public static Node createBinaryTree() {
 		Node root = new Node(8);
 		root.left = new Node(3);
