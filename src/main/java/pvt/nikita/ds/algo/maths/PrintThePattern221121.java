@@ -15,6 +15,8 @@ public class PrintThePattern221121 {
 
 	public static void main(String[] args) {
 		print(4);
+		System.out.println();
+		System.out.println(Math.round(Math.sqrt(16)));
 	}
 	
 	public static void print(int n) {
@@ -46,7 +48,7 @@ public class PrintThePattern221121 {
         } 
         //2 2 1 1 $2 1 $
          System.out.print(sb);
-    
+         
 	}
 
 }
